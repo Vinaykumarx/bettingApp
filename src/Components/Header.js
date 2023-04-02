@@ -12,8 +12,11 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
+      // <header id="home">
+            <div className='intro'>
+
         <ParticlesBg type="circle" bg={true} />
+        {/* <img alt="" src="images/casino_img.jpg" /> */}
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -83,7 +86,8 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header>
+        </div>
+      // </header>
     );
   }
 }

@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/* blockquote, q { quotes: &#8220 &#8220; } */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -158,8 +158,9 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+   color: #fff;
+	/* font-family: 'opensans-bold', sans-serif; */
+   font-family: "Raleway", sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }

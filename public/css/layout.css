@@ -127,6 +127,7 @@ header .scrolldown a:hover { color: #0762f9; }
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
+   height: 80px;
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
@@ -595,7 +596,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
+   /* font-family: 'FontAwesome'; */
+   font-family: "Raleway", sans-serif;
    content: "\f0ac";
 	padding-right: 10px;
 	font-size: 72px;
@@ -1022,3 +1024,66 @@ footer .social-links li:first-child { margin-left: 0; }
 .github-btn{
    background-color: #34495e !important;
 }
+
+
+
+
+/* Headerzz Section */
+.intro {
+   display: table;
+   width: 100%;
+   padding: 0;
+   background: url("../images/casino_img.jpg") center center no-repeat;
+   background-color: #e5e5e5;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+ }
+ .intro .overlay {
+   background: rgba(0, 0, 0, 0.2);
+ }
+ .intro h1 {
+   font-family: "Raleway", sans-serif;
+   color: #fff;
+   font-size: 82px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-top: 0;
+   margin-bottom: 10px;
+ }
+ .intro h1 span {
+   font-weight: 800;
+   color: #5ca9fb;
+ }
+ .intro p {
+   color: #fff;
+   font-size: 22px;
+   font-weight: 300;
+   line-height: 30px;
+   margin: 0 auto;
+   margin-bottom: 60px;
+ }
+ #headerrr .intro-text {
+   /* height: 100vh; */
+   padding-top: 150px;
+   /* padding-bottom: 200px; */
+   /* text-align: center; */
+ }
+
+ @media (max-width: 768px) {
+   .first-column {
+     display: none;
+   }
+ }
+
+ /* caution screen */
+ .caution {
+   height: 30vh;
+   background-color: red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ 
